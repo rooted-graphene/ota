@@ -1,10 +1,15 @@
 name: Release multiple devices
 
 on:
+  # Run daily in addition to release-multiple to make sure devices released later still get built
   schedule:
     - cron:  '0 3 * * *'
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+
+  # Allows calling from release action
+  workflow_call:
 
 permissions:
   contents: write

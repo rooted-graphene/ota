@@ -1,0 +1,45 @@
+name: Create release
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+   # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+    inputs:
+      rooted-graphene-version:
+        description: Git ref of rooted graphene repo to use
+        required: false
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    outputs:
+      release_created: ${{ steps.release.outputs.release_created }}
+    steps:
+      - name: Checkout rooted-graphene script repository
+        uses: actions/checkout@v5
+        with:
+          repository: schnatterer/rooted-graphene
+          ref: ${{ github.event.inputs.rooted-graphene-version || inputs.rooted-graphene-version || 'main' }}
+          fetch-depth: 1 # Efficent checkout, we only need the one ref
+      - name: Set inputs
+        # Empty means, use version defined in rooted-ota.sh
+        # Just pick an arbitrary device
+        # No MAGISK_PREINIT_DEVICE and SKIP_ROOTLESS leads to only release be checked in checkBuildNecessary
+        run: |
+          echo "DEVICE_ID=caiman" >> $GITHUB_ENV
+          echo "SKIP_ROOTLESS=true" >> $GITHUB_ENV
+      - run: sudo apt-get install -y jq curl git
+      - id: release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPO: ${{ github.repository }}
+        run: |
+          DEBUG=1 bash -c '. rooted-ota.sh && findLatestVersion && checkBuildNecessary && createReleaseIfNecessary && echo "release_created=true" >> $GITHUB_OUTPUT'
+  
+  # Run explicitly, instead of triggering on release because this would need additional PAT, making it more complicated:
+  # https://stackoverflow.com/a/69063453/1845976
+  trigger-multiple-release:
+    needs: create-release
+    if: needs.create-release.outputs.release_created == 'true'
+    uses: ./.github/workflows/release-multiple.yaml
+    secrets: inherit
