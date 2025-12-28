@@ -1,7 +1,7 @@
 {
   "version": 2,
   "full": {
-    "location_ota": "https://github.com/rooted-graphene/ota/releases/download/2025121701/panther-2025121701-d20eef3-rootless.zip",
-    "location_csig": "https://github.com/rooted-graphene/ota/releases/download/2025121701/panther-2025121701-d20eef3-rootless.zip.csig"
+    "location_ota": "https://github.com/rooted-graphene/ota/releases/download/2025122501/panther-2025122501-5dc1065-rootless.zip",
+    "location_csig": "https://github.com/rooted-graphene/ota/releases/download/2025122501/panther-2025122501-5dc1065-rootless.zip.csig"
   }
 }
