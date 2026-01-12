@@ -1,7 +1,7 @@
 {
   "version": 2,
   "full": {
-    "location_ota": "https://github.com/rooted-graphene/ota/releases/download/2025122501/caiman-2025122501-5dc1065-magisk-v30.6.zip",
-    "location_csig": "https://github.com/rooted-graphene/ota/releases/download/2025122501/caiman-2025122501-5dc1065-magisk-v30.6.zip.csig"
+    "location_ota": "https://github.com/rooted-graphene/ota/releases/download/2026011001/caiman-2026011001-7976e9c-magisk-v30.6.zip",
+    "location_csig": "https://github.com/rooted-graphene/ota/releases/download/2026011001/caiman-2026011001-7976e9c-magisk-v30.6.zip.csig"
   }
 }
