@@ -23,8 +23,9 @@ jobs:
         include:
           - device-id: tangorpro # Pixel Tablet
             magisk-preinit-device: sda5
-          - device-id: mustang # Pixel 10 Pro XL
-            magisk-preinit-device: sda10
+# Suspended, unclear if working https://github.com/rooted-graphene/ota/pull/13
+#          - device-id: mustang # Pixel 10 Pro XL
+#            magisk-preinit-device: sda10
           - device-id: tegu # Pixel 9a
             magisk-preinit-device: sda10
           - device-id: komodo # Pixel 9 Pro XL
