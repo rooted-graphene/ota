@@ -1,7 +1,7 @@
 {
   "version": 2,
   "full": {
-    "location_ota": "https://github.com/rooted-graphene/ota/releases/download/2026040801/cheetah-2026040801-f8db2f5-magisk-v30.7.zip",
-    "location_csig": "https://github.com/rooted-graphene/ota/releases/download/2026040801/cheetah-2026040801-f8db2f5-magisk-v30.7.zip.csig"
+    "location_ota": "https://github.com/rooted-graphene/ota/releases/download/2026042101/cheetah-2026042101-2bf513b-magisk-v30.7.zip",
+    "location_csig": "https://github.com/rooted-graphene/ota/releases/download/2026042101/cheetah-2026042101-2bf513b-magisk-v30.7.zip.csig"
   }
 }
