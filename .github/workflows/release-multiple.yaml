@@ -23,6 +23,11 @@ jobs:
         include:
 #          - device-id: tangorpro # Pixel Tablet
 #            magisk-preinit-device: sda5
+# Suspended, unclear if working https://github.com/rooted-graphene/ota/pull/13
+#          - device-id: mustang # Pixel 10 Pro XL
+#            magisk-preinit-device: sda10
+#          - device-id: blazer # Pixel 10 Pro
+#            magisk-preinit-device: sda10
 #          - device-id: tegu # Pixel 9a
 #            magisk-preinit-device: sda10
 #          - device-id: komodo # Pixel 9 Pro XL
@@ -39,19 +44,16 @@ jobs:
 #            magisk-preinit-device: sda10
 #          - device-id: bluejay # Pixel 6a
 #            magisk-preinit-device: sda8
+#          - device-id: cheetah # Pixel 7 Pro
+#            magisk-preinit-device: sda8
 #          - device-id: panther # Pixel 7
 #            magisk-preinit-device: sda8
 #          - device-id: lynx # Pixel 7a
 #            magisk-preinit-device: sda8
 #          - device-id: felix # Pixel fold
 #            magisk-preinit-device: sda8
-          
-#          - device-id: akita # Pixel 8a # https://github.com/Enovale/rooted-graphene/blob/4bb6f99cc0e1c22acd4bc71d6662ae3d9059849a/.github/workflows/release-multiple.yaml#L23 
-#            magisk-preinit-device: sda10
-#          - device-id: raven # Pixel 6 Pro
-#            magisk-preinit-device: metadata # https://github.com/skrimix/rooted-graphene/blob/319839bfcaba6548446f17bf8e56cd7ecb8f793e/.github/workflows/release.yaml#L39
-          - device-id: cheetah # Pixel Pro 7 
-            magisk-preinit-device: persist # https://xdaforums.com/t/guide-to-lock-bootloader-while-using-rooted-otaos-magisk-root.4510295/page-5#post-88499289)
+           - device-id: cheetah # Pixel Pro 7 
+             magisk-preinit-device: persist # https://xdaforums.com/t/guide-to-lock-bootloader-while-using-rooted-otaos-magisk-root.4510295/page-5#post-88499289)
     uses: ./.github/workflows/release-single.yaml
     secrets: inherit 
     with:
