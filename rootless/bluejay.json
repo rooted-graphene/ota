@@ -1,7 +1,7 @@
 {
   "version": 2,
   "full": {
-    "location_ota": "https://github.com/rooted-graphene/ota/releases/download/2026060101/bluejay-2026060101-d5e1db6-rootless.zip",
-    "location_csig": "https://github.com/rooted-graphene/ota/releases/download/2026060101/bluejay-2026060101-d5e1db6-rootless.zip.csig"
+    "location_ota": "https://github.com/rooted-graphene/ota/releases/download/2026060601/bluejay-2026060601-7b18e8c-rootless.zip",
+    "location_csig": "https://github.com/rooted-graphene/ota/releases/download/2026060601/bluejay-2026060601-7b18e8c-rootless.zip.csig"
   }
 }
