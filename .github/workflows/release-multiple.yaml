@@ -26,6 +26,8 @@ jobs:
 # Suspended, unclear if working https://github.com/rooted-graphene/ota/pull/13
 #          - device-id: mustang # Pixel 10 Pro XL
 #            magisk-preinit-device: sda10
+          - device-id: frankel # Pixel 10
+            magisk-preinit-device: sda10
           - device-id: blazer # Pixel 10 Pro
             magisk-preinit-device: sda10
           - device-id: tegu # Pixel 9a
