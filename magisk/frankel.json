@@ -1,7 +1,7 @@
 {
   "version": 2,
   "full": {
-    "location_ota": "https://github.com/rooted-graphene/ota/releases/download/2026071101/frankel-2026071101-793d6e4-magisk-v30.7.zip",
-    "location_csig": "https://github.com/rooted-graphene/ota/releases/download/2026071101/frankel-2026071101-793d6e4-magisk-v30.7.zip.csig"
+    "location_ota": "https://github.com/rooted-graphene/ota/releases/download/2026071501/frankel-2026071501-780a3f5-magisk-v30.7.zip",
+    "location_csig": "https://github.com/rooted-graphene/ota/releases/download/2026071501/frankel-2026071501-780a3f5-magisk-v30.7.zip.csig"
   }
 }
