@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "full": {
+    "location_ota": "https://github.com/rooted-graphene/ota/releases/download/2026071501/blazer-2026071501-59919b6-rootless-test.zip",
+    "location_csig": "https://github.com/rooted-graphene/ota/releases/download/2026071501/blazer-2026071501-59919b6-rootless-test.zip.csig"
+  }
+}
