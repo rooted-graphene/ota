@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "full": {
+    "location_ota": "https://github.com/rooted-graphene/ota/releases/download/2026072901/tangorpro-2026072901-c0222c9-pixincreate-v30.7.zip",
+    "location_csig": "https://github.com/rooted-graphene/ota/releases/download/2026072901/tangorpro-2026072901-c0222c9-pixincreate-v30.7.zip.csig"
+  }
+}
