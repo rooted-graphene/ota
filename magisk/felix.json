@@ -1,7 +1,7 @@
 {
   "version": 2,
   "full": {
-    "location_ota": "https://github.com/rooted-graphene/ota/releases/download/2026072901/felix-2026072901-e9a99be-magisk-v30.7.zip",
-    "location_csig": "https://github.com/rooted-graphene/ota/releases/download/2026072901/felix-2026072901-e9a99be-magisk-v30.7.zip.csig"
+    "location_ota": "https://github.com/rooted-graphene/ota/releases/download/2026080501/felix-2026080501-8a32ee1-magisk-v30.7.zip",
+    "location_csig": "https://github.com/rooted-graphene/ota/releases/download/2026080501/felix-2026080501-8a32ee1-magisk-v30.7.zip.csig"
   }
 }
