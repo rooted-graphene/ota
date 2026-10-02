@@ -29,6 +29,8 @@ jobs:
             magisk-preinit-device: sda10
           - device-id: blazer # Pixel 10 Pro
             magisk-preinit-device: sda10
+          - device-id: stallion # Pixel 10a
+            magisk-preinit-device: sda10
           - device-id: tegu # Pixel 9a
             magisk-preinit-device: sda10
           - device-id: komodo # Pixel 9 Pro XL
