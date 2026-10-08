@@ -1,7 +1,7 @@
 {
   "version": 2,
   "full": {
-    "location_ota": "https://github.com/rooted-graphene/ota/releases/download/2026100201/oriole-2026100201-8879222-pixincreate-v30.7.zip",
-    "location_csig": "https://github.com/rooted-graphene/ota/releases/download/2026100201/oriole-2026100201-8879222-pixincreate-v30.7.zip.csig"
+    "location_ota": "https://github.com/rooted-graphene/ota/releases/download/2026100601/oriole-2026100601-d0efecd-pixincreate-v30.7.zip",
+    "location_csig": "https://github.com/rooted-graphene/ota/releases/download/2026100601/oriole-2026100601-d0efecd-pixincreate-v30.7.zip.csig"
   }
 }
