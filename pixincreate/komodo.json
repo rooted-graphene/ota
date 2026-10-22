@@ -1,7 +1,7 @@
 {
   "version": 2,
   "full": {
-    "location_ota": "https://github.com/rooted-graphene/ota/releases/download/2026101601/komodo-2026101601-968e4ef-pixincreate-v30.7.zip",
-    "location_csig": "https://github.com/rooted-graphene/ota/releases/download/2026101601/komodo-2026101601-968e4ef-pixincreate-v30.7.zip.csig"
+    "location_ota": "https://github.com/rooted-graphene/ota/releases/download/2026102101/komodo-2026102101-e5c001a-pixincreate-v30.7.zip",
+    "location_csig": "https://github.com/rooted-graphene/ota/releases/download/2026102101/komodo-2026102101-e5c001a-pixincreate-v30.7.zip.csig"
   }
 }
