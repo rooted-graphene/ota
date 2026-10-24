@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "full": {
+    "location_ota": "https://github.com/rooted-graphene/ota/releases/download/2026102101/frankel-2026102101-6ba6e2e-pixincreate-v31.0-3-test.zip",
+    "location_csig": "https://github.com/rooted-graphene/ota/releases/download/2026102101/frankel-2026102101-6ba6e2e-pixincreate-v31.0-3-test.zip.csig"
+  }
+}
