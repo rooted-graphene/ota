@@ -1,7 +1,7 @@
 {
   "version": 2,
   "full": {
-    "location_ota": "https://github.com/rooted-graphene/ota/releases/download/2025112101/oriole-2025112101-72518b6-magisk-v30.6-test.zip",
-    "location_csig": "https://github.com/rooted-graphene/ota/releases/download/2025112101/oriole-2025112101-72518b6-magisk-v30.6-test.zip.csig"
+    "location_ota": "https://github.com/rooted-graphene/ota/releases/download/2026110201/oriole-2026110201-f86f79d-magisk-v31.1-test.zip",
+    "location_csig": "https://github.com/rooted-graphene/ota/releases/download/2026110201/oriole-2026110201-f86f79d-magisk-v31.1-test.zip.csig"
   }
 }
