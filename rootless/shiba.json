@@ -1,7 +1,7 @@
 {
   "version": 2,
   "full": {
-    "location_ota": "https://github.com/rooted-graphene/ota/releases/download/2026110201/shiba-2026110201-e4cfc1a-rootless.zip",
-    "location_csig": "https://github.com/rooted-graphene/ota/releases/download/2026110201/shiba-2026110201-e4cfc1a-rootless.zip.csig"
+    "location_ota": "https://github.com/rooted-graphene/ota/releases/download/2026110701/shiba-2026110701-ca2df93-rootless.zip",
+    "location_csig": "https://github.com/rooted-graphene/ota/releases/download/2026110701/shiba-2026110701-ca2df93-rootless.zip.csig"
   }
 }
