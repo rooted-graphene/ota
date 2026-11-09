@@ -1,7 +1,7 @@
 {
   "version": 2,
   "full": {
-    "location_ota": "https://github.com/rooted-graphene/ota/releases/download/2026110201/stallion-2026110201-e4cfc1a-pixincreate-v31.0-3.zip",
-    "location_csig": "https://github.com/rooted-graphene/ota/releases/download/2026110201/stallion-2026110201-e4cfc1a-pixincreate-v31.0-3.zip.csig"
+    "location_ota": "https://github.com/rooted-graphene/ota/releases/download/2026110701/stallion-2026110701-ca2df93-pixincreate-v31.0-3.zip",
+    "location_csig": "https://github.com/rooted-graphene/ota/releases/download/2026110701/stallion-2026110701-ca2df93-pixincreate-v31.0-3.zip.csig"
   }
 }
