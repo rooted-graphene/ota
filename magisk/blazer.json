@@ -1,7 +1,7 @@
 {
   "version": 2,
   "full": {
-    "location_ota": "https://github.com/rooted-graphene/ota/releases/download/2026110801/blazer-2026110801-ca2df93-magisk-v31.1.zip",
-    "location_csig": "https://github.com/rooted-graphene/ota/releases/download/2026110801/blazer-2026110801-ca2df93-magisk-v31.1.zip.csig"
+    "location_ota": "https://github.com/rooted-graphene/ota/releases/download/2026111301/blazer-2026111301-8c322e7-magisk-v31.1.zip",
+    "location_csig": "https://github.com/rooted-graphene/ota/releases/download/2026111301/blazer-2026111301-8c322e7-magisk-v31.1.zip.csig"
   }
 }
