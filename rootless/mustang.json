@@ -1,7 +1,7 @@
 {
   "version": 2,
   "full": {
-    "location_ota": "https://github.com/rooted-graphene/ota/releases/download/2026111301/mustang-2026111301-8c322e7-rootless.zip",
-    "location_csig": "https://github.com/rooted-graphene/ota/releases/download/2026111301/mustang-2026111301-8c322e7-rootless.zip.csig"
+    "location_ota": "https://github.com/rooted-graphene/ota/releases/download/2026111801/mustang-2026111801-a732173-rootless.zip",
+    "location_csig": "https://github.com/rooted-graphene/ota/releases/download/2026111801/mustang-2026111801-a732173-rootless.zip.csig"
   }
 }
